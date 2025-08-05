@@ -6,30 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE2BBC682E4226B60069CBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2BBC632E4226B60069CBAE /* Main.storyboard */; };
+		BE2BBC692E4226B60069CBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2BBC622E4226B60069CBAE /* LaunchScreen.storyboard */; };
+		BE2BBC6A2E4226B60069CBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2BBC602E4226B60069CBAE /* Assets.xcassets */; };
+		BE2BBC6C2E4226B60069CBAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2BBC642E4226B60069CBAE /* SceneDelegate.swift */; };
+		BE2BBC6D2E4226B60069CBAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2BBC652E4226B60069CBAE /* ViewController.swift */; };
+		BE2BBC6E2E4226B60069CBAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2BBC5F2E4226B60069CBAE /* AppDelegate.swift */; };
+		BE2BBC7E2E4245B80069CBAE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2BBC7C2E4245B80069CBAE /* UIColor+Extension.swift */; };
+		BE2BBC7F2E4245B80069CBAE /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2BBC792E4245B80069CBAE /* ColorManager.swift */; };
+		BE2BBC802E4245B80069CBAE /* CAGradientLayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2BBC7B2E4245B80069CBAE /* CAGradientLayer+Extension.swift */; };
+		BE2BBC8A2E4246FE0069CBAE /* PaywallPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2BBC892E4246E80069CBAE /* PaywallPriceView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE2BBC442E4220C80069CBAE /* PaywallScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaywallScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2BBC5F2E4226B60069CBAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE2BBC602E4226B60069CBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE2BBC612E4226B60069CBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2BBC642E4226B60069CBAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE2BBC652E4226B60069CBAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE2BBC662E4226B60069CBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE2BBC672E4226B60069CBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE2BBC792E4245B80069CBAE /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		BE2BBC7B2E4245B80069CBAE /* CAGradientLayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+Extension.swift"; sourceTree = "<group>"; };
+		BE2BBC7C2E4245B80069CBAE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BE2BBC892E4246E80069CBAE /* PaywallPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallPriceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BE2BBC562E4220CA0069CBAE /* Exceptions for "PaywallScreen" folder in "PaywallScreen" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BE2BBC432E4220C80069CBAE /* PaywallScreen */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE2BBC462E4220C80069CBAE /* PaywallScreen */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BE2BBC562E4220CA0069CBAE /* Exceptions for "PaywallScreen" folder in "PaywallScreen" target */,
-			);
-			path = PaywallScreen;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE2BBC412E4220C80069CBAE /* Frameworks */ = {
@@ -45,7 +48,7 @@
 		BE2BBC3B2E4220C80069CBAE = {
 			isa = PBXGroup;
 			children = (
-				BE2BBC462E4220C80069CBAE /* PaywallScreen */,
+				BE2BBC782E4245AA0069CBAE /* PaywallScreen */,
 				BE2BBC452E4220C80069CBAE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +59,72 @@
 				BE2BBC442E4220C80069CBAE /* PaywallScreen.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2BBC782E4245AA0069CBAE /* PaywallScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BE2BBC612E4226B60069CBAE /* Info.plist */,
+				BE2BBC862E42461E0069CBAE /* Application */,
+				BE2BBC842E4245DE0069CBAE /* Extensions */,
+				BE2BBC832E4245C70069CBAE /* DesignSystem */,
+				BE2BBC872E4246C60069CBAE /* Scenes */,
+				BE2BBC852E4245F30069CBAE /* Resources */,
+			);
+			path = PaywallScreen;
+			sourceTree = "<group>";
+		};
+		BE2BBC832E4245C70069CBAE /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				BE2BBC792E4245B80069CBAE /* ColorManager.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		BE2BBC842E4245DE0069CBAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE2BBC7B2E4245B80069CBAE /* CAGradientLayer+Extension.swift */,
+				BE2BBC7C2E4245B80069CBAE /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE2BBC852E4245F30069CBAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE2BBC622E4226B60069CBAE /* LaunchScreen.storyboard */,
+				BE2BBC632E4226B60069CBAE /* Main.storyboard */,
+				BE2BBC602E4226B60069CBAE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE2BBC862E42461E0069CBAE /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BE2BBC5F2E4226B60069CBAE /* AppDelegate.swift */,
+				BE2BBC642E4226B60069CBAE /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BE2BBC872E4246C60069CBAE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BE2BBC882E4246CE0069CBAE /* UIElements */,
+				BE2BBC652E4226B60069CBAE /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BE2BBC882E4246CE0069CBAE /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				BE2BBC892E4246E80069CBAE /* PaywallPriceView.swift */,
+			);
+			path = UIElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +141,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE2BBC462E4220C80069CBAE /* PaywallScreen */,
 			);
 			name = PaywallScreen;
 			packageProductDependencies = (
@@ -122,6 +188,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2BBC682E4226B60069CBAE /* Main.storyboard in Resources */,
+				BE2BBC692E4226B60069CBAE /* LaunchScreen.storyboard in Resources */,
+				BE2BBC6A2E4226B60069CBAE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +201,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2BBC7E2E4245B80069CBAE /* UIColor+Extension.swift in Sources */,
+				BE2BBC6C2E4226B60069CBAE /* SceneDelegate.swift in Sources */,
+				BE2BBC8A2E4246FE0069CBAE /* PaywallPriceView.swift in Sources */,
+				BE2BBC6D2E4226B60069CBAE /* ViewController.swift in Sources */,
+				BE2BBC802E4245B80069CBAE /* CAGradientLayer+Extension.swift in Sources */,
+				BE2BBC6E2E4226B60069CBAE /* AppDelegate.swift in Sources */,
+				BE2BBC7F2E4245B80069CBAE /* ColorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE2BBC622E4226B60069CBAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2BBC672E4226B60069CBAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE2BBC632E4226B60069CBAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2BBC662E4226B60069CBAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE2BBC582E4220CA0069CBAE /* Debug */ = {

@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "mdi_checkbox-marked@1x.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "mdi_checkbox-marked@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "mdi_checkbox-marked@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
